@@ -1,0 +1,63 @@
+*{
+    margin:0;
+   box-sizing: border-box;
+}
+body{
+    background-color:#E5E7EB;
+}
+
+.card{
+    background-color: white;
+    width:340px;
+    height: 256px;
+    margin: 15% auto;
+    padding: 24px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 5px gray;
+    border-radius: 8px;
+    color: grey;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+.profile{
+    display:flex;
+    justify-content: flex-start;
+    gap:10px;
+    align-items: center;
+}
+.profile img{
+width: 48px;
+height:48px;
+border-radius: 50%;
+}
+.profile_name{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.profile h1{
+    font-size:24px;
+    color: black;
+}
+
+.card_desc{
+    margin:10px;
+   
+}
+.card_desc p{
+    text-align:justify
+}
+.credit {
+    text-align: center;
+    margin: 5px 0;
+    font-size: medium;
+  
+   
+}
+.credit a{
+  
+    text-decoration: none;
+   
+}
